@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐄 AI-Based Animal Health Monitoring</h1>
+<p class="subtitle">Real-time IoT & AI Dashboard</p>
+
+<div class="navbar">
+  <a href="index.html">Dashboard</a>
+  <a href="animals.html">Animals</a>
+  <a href="alerts.html">Alerts</a>
+  <a href="settings.html">Settings</a>
+</div>
+<div class="dashboard">
+
+  <div class="card">
+    <h2>🌡 Temperature</h2>
+    <p id="temp">-- °C</p>
+  </div>
+
+  <div class="card">
+    <h2>🏃 Activity Level</h2>
+    <p id="activity">-- %</p>
+  </div>
+
+  <div class="card" id="statusCard">
+    <h2>❤️ Health Status</h2>
+    <p id="status">--</p>
+  </div>
+
+  <div class="card">
+    <h2>⏰ Last Updated</h2>
+    <p id="time">--</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
